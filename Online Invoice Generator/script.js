@@ -106,7 +106,6 @@ const saveinvoice = () => {
     let msg = document.getElementById('msg');
         msg.classList.replace('text-blue-500', 'text-green-400');
         msg.innerHTML = 'Data has been saved successfully!'
-    customername = ''
-    customeremail = ''
-    customerphone = ''
+    
+    window.location.reload();
 }
