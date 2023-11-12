@@ -44,6 +44,7 @@ section > .form > label{
     font-family: ebrima;
     font-size: 14px;
     padding: 2px 5px;
+    display: block;
 }
 section > .form > input{
     margin: 3px 0px;
@@ -99,7 +100,7 @@ section > #result > textarea {
     margin: 2px;
     margin-left: 20px;
     outline: none;
-    color: blueviolet;
+    color: black;
     border: 1px solid whitesmoke;
     border-radius: 5px;
     resize: none;
